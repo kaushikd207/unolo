@@ -36,7 +36,6 @@ export default function Sidebar() {
     <div className="flex h-screen flex-col md:flex-row">
       {/* Sidebar */}
       <aside className="w-full md:w-64 bg-gray-900 text-white p-4 md:block hidden">
-        <h2 className="text-xl font-bold mb-4">unolo</h2>
         <ul>
           {menuItems.map((item) => (
             <li
