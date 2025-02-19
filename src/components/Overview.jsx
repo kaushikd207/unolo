@@ -3,6 +3,10 @@ import EmployeeTable from "./EmployeeTable";
 import StatsCard from "./StatsCard";
 import TeamwiseAttendance from "./Teamwiseattendance";
 import ExpenseChart from "./ExpenseChart";
+import TaskStatusChart from "./TaskStatusChart";
+import WorkingHoursChart from "./WorkinghoursChart";
+import OffDutyTable from "./OffdutyTable";
+import StatusCard from "./StatusCard";
 
 function Overview() {
   return (
@@ -17,23 +21,19 @@ function Overview() {
         <EmployeeTable />
       </div>
       <div className="p-4 bg-white shadow rounded-lg">
-        <h3 className="text-lg font-semibold mb-2">Card </h3>
-        <p className="text-gray-600">This is card content.</p>
+        <OffDutyTable />
       </div>
-      <div className="p-4 bg-white shadow rounded-lg">
-        <h3 className="text-lg font-semibold mb-2">Card </h3>
-        <p className="text-gray-600">This is card content.</p>
+      <div className="p-4 bg-white shadow rounded-lg items-center">
+        <StatusCard />
       </div>
       <div className="p-4 bg-white shadow rounded-lg">
         <ExpenseChart />
       </div>
       <div className="p-4 bg-white shadow rounded-lg">
-        <h3 className="text-lg font-semibold mb-2">Card </h3>
-        <p className="text-gray-600">This is card content.</p>
+        <WorkingHoursChart />
       </div>
       <div className="p-4 bg-white shadow rounded-lg">
-        <h3 className="text-lg font-semibold mb-2">Card </h3>
-        <p className="text-gray-600">This is card content.</p>
+        <TaskStatusChart />
       </div>
     </div>
   );
